@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+    "bin",
+    "eternaltwin_core",
+    "eternaltwin_config",
+]
+
+[patch.crates-io]
+eternaltwin_core = { path = "./eternaltwin_core" }
+eternaltwin_config = { path = "./eternaltwin_config" }
